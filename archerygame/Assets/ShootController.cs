@@ -17,4 +17,9 @@ public class ShootController : MonoBehaviour
     {
         
     }
+
+    public void eventThingy()
+    {
+        BowCharge.SetPower(5);
+    }
 }
